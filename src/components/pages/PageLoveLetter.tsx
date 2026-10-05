@@ -24,7 +24,7 @@ export default function PageLoveLetter() {
       gif: "/gifs/gifluv.gif"
     },
     {
-      text: "Di umur kamu yang baru ini, aku cuma pengen kamu tau satu hal: kamu nggak harus selalu kuat. Kalau capek, bilang. Kalau lagi pusing sama keadaan, cerita ke aku. Aku mungkin nggak bisa nyelesaiin semuanya, tapi aku bakal selalu ada buat nemenin.",
+      text: "Di umur kamu yang ke-22 ini, aku cuma pengen kamu tau satu hal: kamu nggak harus selalu kuat. Kalau capek, bilang. Kalau lagi pusing sama keadaan, cerita ke aku. Aku mungkin nggak bisa nyelesaiin semuanya, tapi aku bakal selalu ada buat nemenin.",
       highlight: "Janji ya sayangkuuu 💌",
       color: "text-rose-500",
       rotate: "-rotate-1",

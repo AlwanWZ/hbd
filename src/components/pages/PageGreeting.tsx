@@ -46,7 +46,7 @@ export default function PageGreeting() {
         {/* Glassmorphism Card for Text */}
         <div className="space-y-4 text-gray-700 text-[1.05rem] leading-relaxed font-medium bg-white/50 px-5 py-6 rounded-[24px] shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-white/60 backdrop-blur-md">
           <p>
-            Semoga di umur yang baru ini kamu makin bahagia, makin sehat, dan semua hal baik yang lagi kamu usahain jalannya lancar.
+            Ciee udah 22 tahun nih! Semoga di umur yang baru ini kamu makin bahagia, makin sehat, dan semua hal baik yang lagi kamu usahain jalannya lancar.
           </p>
           <p>
             Aku bikin ini khusus buat kamu. Bukan kartu ucapan biasa, tapi buku kecil yang isinya kita. Pelan-pelan aja bacanya, geser ke kanan ya.

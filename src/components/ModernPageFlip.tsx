@@ -7,11 +7,12 @@ import PageGreeting from "./pages/PageGreeting";
 import PageMemories from "./pages/PageMemories";
 import PageAnimation from "./pages/PageAnimation";
 import PageGallery from "./pages/PageGallery";
+import PageMinigame from "./pages/PageMinigame";
 import PageLoveLetter from "./pages/PageLoveLetter";
 import PageClosing from "./pages/PageClosing";
 import FloatingDecor from "./FloatingDecor";
 
-const pages = [PageGreeting, PageMemories, PageAnimation, PageGallery, PageLoveLetter, PageClosing];
+const pages = [PageGreeting, PageMemories, PageAnimation, PageGallery, PageMinigame, PageLoveLetter, PageClosing];
 const TOTAL = pages.length;
 
 function ScrollablePageWrapper({ children }: { children: ReactNode }) {
