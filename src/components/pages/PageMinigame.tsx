@@ -111,7 +111,7 @@ export default function PageMinigame() {
                     exit={{ scale: 0, opacity: 0 }}
                     whileTap={{ scale: 1.5, opacity: 0 }}
                     onClick={() => tapItem(item.id)}
-                    className="absolute text-3xl w-14 h-14 flex items-center justify-center drop-shadow-lg"
+                    className="absolute text-3xl w-14 h-14 flex items-center justify-center transform-gpu drop-shadow-sm"
                     style={{ left: `${item.x}%`, top: `${item.y}%` }}
                   >
                     {item.type}
