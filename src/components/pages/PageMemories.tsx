@@ -27,7 +27,7 @@ export default function PageMemories() {
 
         <GlassVideoPlayer />
 
-        <div className="bg-white/50 px-5 py-4 rounded-[24px] shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-white/60 backdrop-blur-sm">
+        <div className="bg-white/95 px-5 py-4 rounded-[24px] shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-white/60 ">
           <p className="text-center text-gray-700 font-medium text-sm leading-relaxed">
             Sengaja aku kumpulin foto-foto kamu di sini. Gatau kenapa, liat kamu senyum di tiap foto ini aja udah selalu berhasil bikin hari aku lebih tenang.
           </p>

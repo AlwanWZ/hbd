@@ -46,7 +46,7 @@ export default function PageGallery() {
           ))}
         </div>
 
-        <div className="mt-10 px-5 py-4 bg-white/60 backdrop-blur-sm border border-white/70 rounded-2xl shadow-sm">
+        <div className="mt-10 px-5 py-4 bg-white/85  border border-white/70 rounded-2xl shadow-sm">
           <p className="text-center text-gray-600 text-[0.95rem] font-medium leading-relaxed">
             Walaupun kita jauh, kiriman foto random dari kamu tuh selalu jadi hal yang paling aku tunggu tauu. Jangan pernah bosen kirim pap muka lucu kamu yaa, cantiiik.
           </p>

@@ -76,7 +76,7 @@ export default function PageMinigame() {
       <div className="relative z-10 flex flex-col flex-1 px-4 py-8 overflow-hidden text-center" ref={containerRef}>
         <PageDecorations />
 
-        <div className="relative z-10 max-w-sm mx-auto w-full flex flex-col h-full bg-white/70 backdrop-blur-sm px-4 py-6 rounded-[16px] shadow-[0_15px_35px_rgba(225,29,72,0.15)] border border-white/60">
+        <div className="relative z-10 max-w-sm mx-auto w-full flex flex-col h-full bg-white/90  px-4 py-6 rounded-[16px] shadow-[0_15px_35px_rgba(225,29,72,0.15)] border border-white/60">
           
           <div className="mb-4 shrink-0">
             <h3 className="text-[1.3rem] font-bold text-gray-800 drop-shadow-sm leading-tight mb-1">
@@ -126,7 +126,7 @@ export default function PageMinigame() {
                 >
                   <img src="/gifs/cute2.gif" alt="happy" className="w-24 h-24 object-contain mb-2 drop-shadow-md" />
                   <h4 className="text-2xl text-rose-500 font-bold mb-1" style={{ fontFamily: "var(--font-agbalumo)" }}>Good Job! 💖</h4>
-                  <p className="text-xs text-gray-700 font-medium text-center bg-white/80 px-4 py-2 rounded-xl shadow-sm border border-pink-100">
+                  <p className="text-xs text-gray-700 font-medium text-center bg-white/95 px-4 py-2 rounded-xl shadow-sm border border-pink-100">
                     Kamu berhasil nangkep semua rasa sayangkuuu!! Cieee sekarang boleh geser ke halaman selanjutnya yaa sayang! 🥰
                   </p>
                 </motion.div>

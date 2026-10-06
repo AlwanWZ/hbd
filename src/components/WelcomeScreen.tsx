@@ -32,7 +32,7 @@ export default function WelcomeScreen({ onEnter }: { onEnter: () => void }) {
   };
 
   return (
-    <div className="absolute inset-0 flex items-center justify-center bg-pink-50/95 backdrop-blur-md overflow-hidden">
+    <div className="absolute inset-0 flex items-center justify-center bg-pink-50/95  overflow-hidden">
       
       {/* Decorative floating items */}
       <motion.div animate={{ y: [0, -20, 0], rotate: [0, 10, -10, 0] }} transition={{ duration: 4, repeat: Infinity }} className="absolute top-20 left-10 text-rose-300 opacity-60">
@@ -65,7 +65,7 @@ export default function WelcomeScreen({ onEnter }: { onEnter: () => void }) {
               animate={{ scale: 1, rotate: 0 }}
               exit={{ scale: 0.8, opacity: 0, rotate: 10 }}
               transition={{ type: "spring", bounce: 0.5, duration: 1 }}
-              className="bg-white/80 backdrop-blur-md p-8 rounded-[2rem] shadow-[0_20px_50px_rgba(225,29,72,0.15)] border border-white text-center relative"
+              className="bg-white/95  p-8 rounded-[2rem] shadow-[0_20px_50px_rgba(225,29,72,0.15)] border border-white text-center relative"
             >
               {/* Stamp/Badge */}
               <div className="absolute -top-4 -right-4 w-12 h-12 bg-rose-400 rounded-full flex items-center justify-center text-white font-bold text-xs shadow-lg rotate-12 border-2 border-white">
@@ -116,7 +116,7 @@ export default function WelcomeScreen({ onEnter }: { onEnter: () => void }) {
               times: [0, 0.15, 0.3, 1], 
               ease: "easeInOut" 
             }}
-            className="text-pink-500 drop-shadow-2xl absolute flex items-center justify-center"
+            className="text-pink-500 absolute flex items-center justify-center transform-gpu"
             style={{ width: "3000px", height: "3000px" }}
           >
             <svg viewBox="0 0 24 24" className="w-full h-full fill-current">

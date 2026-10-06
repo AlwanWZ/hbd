@@ -43,7 +43,7 @@ export default function PageClosing() {
         <PageDecorations />
         
         <div className="relative z-10 max-w-md mx-auto w-full flex flex-col items-center">
-        <div className="relative bg-white/80 backdrop-blur-sm px-6 pt-10 pb-12 rounded-[12px] shadow-[0_15px_35px_rgba(225,29,72,0.15)] border border-white/60 flex flex-col items-center w-full min-h-[440px]">
+        <div className="relative bg-white/95  px-6 pt-10 pb-12 rounded-[12px] shadow-[0_15px_35px_rgba(225,29,72,0.15)] border border-white/60 flex flex-col items-center w-full min-h-[440px]">
           <img src="/gifs/gif1.gif" alt="" className="w-40 h-40 object-contain mb-4" />
 
           <h3 className="text-3xl font-bold text-gray-800 leading-tight">

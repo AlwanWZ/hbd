@@ -68,7 +68,7 @@ export default function MusicToggle({ playSignal }: MusicToggleProps) {
       <button
         onClick={toggleMusic}
         className={cn(
-          "p-3 rounded-full bg-white/30 backdrop-blur-md border border-white/40 shadow-[0_4px_15px_rgba(236,72,153,0.15)] transition-all duration-300",
+          "p-3 rounded-full bg-white/30  border border-white/40 shadow-[0_4px_15px_rgba(236,72,153,0.15)] transition-all duration-300",
           isPlaying ? "text-pink-500" : "text-gray-400"
         )}
       >

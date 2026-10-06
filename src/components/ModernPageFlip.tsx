@@ -58,7 +58,7 @@ function ScrollablePageWrapper({ children }: { children: ReactNode }) {
             exit={{ opacity: 0, y: 10 }}
             className="absolute bottom-5 left-1/2 -translate-x-1/2 pointer-events-none flex flex-col items-center opacity-70 z-50 text-rose-400"
           >
-            <span className="text-[9px] font-bold uppercase tracking-widest bg-white/70 px-2 py-0.5 rounded-full backdrop-blur-sm shadow-sm border border-pink-100">Scroll</span>
+            <span className="text-[9px] font-bold uppercase tracking-widest bg-white/90 px-2 py-0.5 rounded-full  shadow-sm border border-pink-100">Scroll</span>
             <ChevronDown className="w-4 h-4 animate-bounce mt-0.5 drop-shadow-sm" />
           </motion.div>
         )}
@@ -104,7 +104,7 @@ export default function ModernPageFlip() {
               transition={{ duration: 0.9, ease: [0.645, 0.045, 0.355, 1] }}
               onAnimationComplete={() => flipping === i && setFlipping(null)}
               style={{ zIndex: z, transformOrigin: "left center", transformStyle: "preserve-3d" }}
-              className="absolute inset-0"
+              className="absolute inset-0 will-change-transform"
               drag={i === current || i === current - 1 ? "x" : false}
               dragConstraints={{ left: 0, right: 0 }}
               dragElastic={0.2}
@@ -150,12 +150,12 @@ export default function ModernPageFlip() {
           onClick={() => go(-1)}
           disabled={current === 0}
           aria-label="Halaman sebelumnya"
-          className="p-3 rounded-full bg-white/70 backdrop-blur-md shadow-lg shadow-pink-200/50 border border-pink-100 text-rose-500 transition-all active:scale-90 disabled:opacity-30"
+          className="p-3 rounded-full bg-white/90  shadow-lg shadow-pink-200/50 border border-pink-100 text-rose-500 transition-all active:scale-90 disabled:opacity-30"
         >
           <ChevronLeft size={22} />
         </button>
 
-        <div className="flex gap-1.5 px-4 py-2.5 rounded-full bg-white/60 backdrop-blur-md border border-pink-100">
+        <div className="flex gap-1.5 px-4 py-2.5 rounded-full bg-white/85  border border-pink-100">
           {pages.map((_, idx) => (
             <motion.div
               key={idx}

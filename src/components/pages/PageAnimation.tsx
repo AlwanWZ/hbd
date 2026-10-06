@@ -112,7 +112,7 @@ export default function PageAnimation() {
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ type: "spring", bounce: 0.5, duration: 1, delay: 0.4 }}
         viewport={{ once: true }}
-        className="mt-14 bg-white/80 backdrop-blur-sm px-6 py-5 rounded-[1.5rem] border-2 border-pink-100 shadow-[0_10px_20px_rgba(225,29,72,0.05)] z-10 text-center mx-5 relative"
+        className="mt-14 bg-white/95  px-6 py-5 rounded-[1.5rem] border-2 border-pink-100 shadow-[0_10px_20px_rgba(225,29,72,0.05)] z-10 text-center mx-5 relative"
       >
         <p className="text-[1.3rem] text-rose-500 mb-2 leading-snug" style={{ fontFamily: "var(--font-agbalumo)" }}>
           Lagi senyum-senyum ngeliatin <br/>
