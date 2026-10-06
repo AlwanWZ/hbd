@@ -124,7 +124,10 @@ export default function ModernPageFlip() {
                 <div className="absolute -top-1 right-10 w-20 h-6 bg-pink-200/70 rotate-6 rounded-sm z-10 pointer-events-none" />
 
                 <ScrollablePageWrapper>
-                  <Page />
+                  {(() => {
+                    const isNear = Math.abs(current - i) <= 1 || (flipping !== null && Math.abs(flipping - i) <= 1);
+                    return isNear ? <Page /> : <div className="w-full h-full bg-pink-50" />;
+                  })()}
                 </ScrollablePageWrapper>
 
                 <div className="absolute bottom-3 right-5 text-[11px] font-semibold text-pink-300 tracking-widest pointer-events-none">

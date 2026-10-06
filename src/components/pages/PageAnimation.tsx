@@ -11,7 +11,7 @@ export default function PageAnimation() {
         style={{ backgroundImage: "url('/animation-bg.jpg')" }}
       />
       {/* Overlay biar teks tetep kebaca dan elegan */}
-      <div className="absolute inset-0 bg-pink-100/60 backdrop-blur-[3px] pointer-events-none" />
+      <div className="absolute inset-0 bg-pink-100/85 pointer-events-none" />
 
       <div className="relative z-10 flex flex-col items-center justify-center flex-1 overflow-hidden">
       {/* Matahari/Bulan Cute */}
@@ -112,7 +112,7 @@ export default function PageAnimation() {
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ type: "spring", bounce: 0.5, duration: 1, delay: 0.4 }}
         viewport={{ once: true }}
-        className="mt-14 bg-white/80 backdrop-blur-md px-6 py-5 rounded-[1.5rem] border-2 border-pink-100 shadow-[0_10px_20px_rgba(225,29,72,0.05)] z-10 text-center mx-5 relative"
+        className="mt-14 bg-white/80 backdrop-blur-sm px-6 py-5 rounded-[1.5rem] border-2 border-pink-100 shadow-[0_10px_20px_rgba(225,29,72,0.05)] z-10 text-center mx-5 relative"
       >
         <p className="text-[1.3rem] text-rose-500 mb-2 leading-snug" style={{ fontFamily: "var(--font-agbalumo)" }}>
           Lagi senyum-senyum ngeliatin <br/>

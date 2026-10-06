@@ -12,7 +12,7 @@ export default function PageGreeting() {
         style={{ backgroundImage: "url('/greeting-bg.png')" }}
       />
       {/* Overlay biar teks tetep kebaca dan elegan */}
-      <div className="absolute inset-0 bg-pink-100/60 backdrop-blur-[3px] pointer-events-none" />
+      <div className="absolute inset-0 bg-pink-100/85 pointer-events-none" />
 
       <div className="relative z-10 flex flex-col items-center justify-center flex-1 px-5 py-12 overflow-hidden text-center">
         <PageDecorations />
@@ -44,7 +44,7 @@ export default function PageGreeting() {
         </h2>
 
         {/* Glassmorphism Card for Text */}
-        <div className="space-y-4 text-gray-700 text-[1.05rem] leading-relaxed font-medium bg-white/50 px-5 py-6 rounded-[24px] shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-white/60 backdrop-blur-md">
+        <div className="space-y-4 text-gray-700 text-[1.05rem] leading-relaxed font-medium bg-white/50 px-5 py-6 rounded-[24px] shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-white/60 backdrop-blur-sm">
           <p>
             Ciee udah 22 tahun nih! Semoga di umur yang baru ini kamu makin bahagia, makin sehat, dan semua hal baik yang lagi kamu usahain jalannya lancar.
           </p>

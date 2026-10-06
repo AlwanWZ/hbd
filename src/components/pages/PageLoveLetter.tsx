@@ -47,7 +47,7 @@ export default function PageLoveLetter() {
         style={{ backgroundImage: "url('/letter-bg.jpg')" }}
       />
       {/* Overlay biar teks tetep kebaca dan elegan */}
-      <div className="absolute inset-0 bg-pink-100/60 backdrop-blur-[3px] pointer-events-none" />
+      <div className="absolute inset-0 bg-pink-100/85 pointer-events-none" />
       
       <div className="relative z-10 flex flex-col justify-center flex-1 px-5 py-12 overflow-hidden">
         <PageDecorations />
@@ -62,10 +62,10 @@ export default function PageLoveLetter() {
           initial={{ opacity: 0, scale: 0.95, rotate: -3 }}
           animate={{ opacity: 1, scale: 1, rotate: -1 }}
           transition={{ duration: 0.8, type: "spring" }}
-          className="relative bg-white/80 backdrop-blur-md p-7 pt-10 pb-8 rounded-[12px] shadow-[0_15px_35px_rgba(225,29,72,0.15)] border border-white/60 text-gray-800 text-[0.92rem] leading-[1.8] font-medium min-h-[440px] flex flex-col"
+          className="relative bg-white/80 backdrop-blur-sm p-7 pt-10 pb-8 rounded-[12px] shadow-[0_15px_35px_rgba(225,29,72,0.15)] border border-white/60 text-gray-800 text-[0.92rem] leading-[1.8] font-medium min-h-[440px] flex flex-col"
         >
           {/* Washi Tape */}
-          <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-28 h-8 bg-rose-300/60 rotate-2 rounded-sm shadow-sm backdrop-blur-md" />
+          <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-28 h-8 bg-rose-300/60 rotate-2 rounded-sm shadow-sm backdrop-blur-sm" />
 
           <div className="relative z-10 flex-1 flex flex-col">
             

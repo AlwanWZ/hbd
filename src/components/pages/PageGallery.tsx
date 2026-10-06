@@ -18,7 +18,7 @@ export default function PageGallery() {
         style={{ backgroundImage: "url('/gallery/4.jpg')" }}
       />
       {/* Overlay biar teks tetep kebaca dan elegan */}
-      <div className="absolute inset-0 bg-pink-100/60 backdrop-blur-[3px] pointer-events-none" />
+      <div className="absolute inset-0 bg-pink-100/85 pointer-events-none" />
 
       <div className="relative z-10 flex flex-col justify-center flex-1 px-5 py-14 overflow-hidden">
 

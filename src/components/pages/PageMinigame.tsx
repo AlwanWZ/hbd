@@ -71,12 +71,12 @@ export default function PageMinigame() {
         className="absolute inset-0 bg-cover bg-center pointer-events-none"
         style={{ backgroundImage: "url('/minigame-bg.jpg')" }}
       />
-      <div className="absolute inset-0 bg-pink-100/60 backdrop-blur-[3px] pointer-events-none" />
+      <div className="absolute inset-0 bg-pink-100/85 pointer-events-none" />
 
       <div className="relative z-10 flex flex-col flex-1 px-4 py-8 overflow-hidden text-center" ref={containerRef}>
         <PageDecorations />
 
-        <div className="relative z-10 max-w-sm mx-auto w-full flex flex-col h-full bg-white/70 backdrop-blur-md px-4 py-6 rounded-[16px] shadow-[0_15px_35px_rgba(225,29,72,0.15)] border border-white/60">
+        <div className="relative z-10 max-w-sm mx-auto w-full flex flex-col h-full bg-white/70 backdrop-blur-sm px-4 py-6 rounded-[16px] shadow-[0_15px_35px_rgba(225,29,72,0.15)] border border-white/60">
           
           <div className="mb-4 shrink-0">
             <h3 className="text-[1.3rem] font-bold text-gray-800 drop-shadow-sm leading-tight mb-1">
